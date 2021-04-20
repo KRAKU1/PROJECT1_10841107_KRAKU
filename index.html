@@ -1,0 +1,60 @@
+<html> 
+<head>
+<link rel="stylesheet" href="css/style.css">
+<script src="js/backend.js"></script>
+</head>
+<body>
+    
+<div class="main">
+    <div class="image">
+        <img src="images/side_img.svg" alt="">
+    </div>
+    <form class="form" id="register">
+        <fieldset>
+            <legend>
+                <span class="user-icon">
+                    <img src="images/user.png" class="user-img" alt="">
+                </span>
+            </legend>
+
+            <div class="fname">
+                <span>First Name</span>
+                <input type="text" name="fname">
+            </div>
+
+            <div class="lname">
+                <span>Last Name</span>
+                <input type="text" name="lname">
+            </div>
+
+
+            <div class="email">
+                <span>Email</span>
+                <input type="text" name="email">
+            </div>
+
+
+            <div class="password">
+                <span>Password</span>
+                <input type="password" name="pass1">
+            </div>
+
+
+            <div class="cpassword">
+                <span>Confirm Password</span>
+                <input type="password" name="pass2">
+            </div>
+
+            <div class="sign-up1">
+            <button type="button" class="sign-up" onclick="signUp();return false">Sign Up</button>
+        </div>
+
+        <div class="existing">
+            <span class="already">Already having an account? <a href="views/sign-in.html">Sign In</a></span>
+        </div>
+        </fieldset>
+    </form>
+</div>
+
+</body>
+</html>
